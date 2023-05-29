@@ -1,6 +1,6 @@
 # L293D-Servo-Motor
 Servo motor control made using L293D
-#Connection
+# Connection
 
 1. Öncelikle L293D shield'i Arduino veya mikrodenetleyici kartınıza doğru şekilde yerleştirin. Shield, Arduino üzerindeki pimlere doğru şekilde oturmalıdır.
 
@@ -11,7 +11,7 @@ Servo motor control made using L293D
 4. Servo motorun güç (+) ve toprak (-) hatlarını beslemek için uygun kaynakları sağlamanız gerekmektedir. Bu kaynak genellikle Arduino veya harici bir güç kaynağı olabilir. Servo motorun güç gereksinimlerini kontrol ederek doğru gerilimi ve akımı sağladığınızdan emin olun.
 
 
-#Code
+# Code
 
 
 1. `AFMotor.h` kütüphanesini projeye dahil ederiz, bu kütüphane L293D shield'i kontrol etmek için kullanılır. Ardından `AF_Servo` sınıfından `servo1` adında bir nesne oluştururuz.
